@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                <!-- 1st row -->
+                <div class="row">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <div class="text-bg-primary p-3"><img
+                                src="data:image/png;base64,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">
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+                                Login
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+                                Signup
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                                Mycart
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+                                My Wishlist
+                            </button>
+                            <button type="button" class="btn btn-secondary" data-bs-container="body"
+                                data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+                                support
+                            </button>
+                        </div>
+                        <div class="text-bg-dark p-3">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- 2nd row -->
+                <div class="row">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img height="350px"
+                                        src="https://contents.mediadecathlon.com/s1097068/k$beba4e8e93d1f02e5094aba0f3d94b9a/defaut.jpg?format=auto&quality=70&f=1680x0"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="350px"
+                                        src="https://contents.mediadecathlon.com/s1097164/k$c15380c159e440e96139d4929cd26746/defaut.jpg?format=auto&quality=70&f=1680x0"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img height="350px"
+                                        src="https://contents.mediadecathlon.com/s1097059/k$e053bbb7415da9db6f117aecf53aae6e/defaut.jpg?format=auto&quality=70&f=1680x0"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+                <!-- 3rd row -->
+                <div class="row g-3">
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1045469/k$8bc888972b89e13df47a82b55c563868/Frame%20427321093.png?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Sale</text></center>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1066101/k$389586e469464129321181a2c4577963/Frame%20427321153.png?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Sport Accessories</text></center>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1066088/k$953c6b5ee89448bcc644e102f1127e89/Frame%20427321596.png?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Waterbottles</text></center>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1066911/k$c1f158765bfd19c13f89d6bd0ad130f7/Frame%20427321593.png?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Bags&Backpack</text></center>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1095554/k$56c97290725cc000efacfad937a8476e/defaut.jpg?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Women</text></center>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1095556/k$52dfe7dbe7264c175c5de737d9ffef8c/defaut.jpg?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Men</text></center>
+
+                    </div>
+
+
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1066912/k$c001690c250abd426acfdcf6a329cafa/Frame%20427321592.png?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+                        <center><text> Massagers</text></center>
+
+                    </div>
+                    <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                        <img src="https://contents.mediadecathlon.com/s1036169/k$f2c69967999ab3fe151b920d164e8a83/Frame%20427320897.png?format=auto&quality=70&f=320x0"
+                            class="img-thumbnail" alt="...">
+
+                        <center><text> Helmets</text></center>
+
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe3EgbyL1ifW1M5CbOJDq6FSAmrSX_FBRYQQ&s"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLkx9lHVe178AV7BgAZOBrxwdZyl6YThFGEA&s"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbuvkhfOk72izJva0HqU5WyR2x1o52eigsPw&s"
+                                        class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    </div>
+<br>
+                    <div class="row g-3">
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card" >
+                                <img src="https://contents.mediadecathlon.com/p2537453/e159c6027b212a6f79ffe2ea4530a7e9/p2537453.jpg?format=auto&quality=70&f=320x0"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">RainCoats</h5>
+                                    <p class="card-text">999</p>
+                                    <div class="row">
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <a
+                                                href="#" class="btn btn-primary">Add To Cart</a></div>
+
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <a
+                                                href="#" class="btn btn-primary">Buy NoW</a></div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                                <img src="https://contents.mediadecathlon.com/p2567760/06cf21e3f5a8a75af7ac0659729255e7/p2567760.jpg?format=auto&quality=70&f=320x0"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Domyos</h5>
+                                    <p class="card-text">350</p>
+                                    <div class="row">
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <a
+                                                href="#" class="btn btn-primary">Add To Cart</a></div>
+
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <a
+                                                href="#" class="btn btn-primary">Buy NoW</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                                <img src="https://contents.mediadecathlon.com/p2522063/0b4760b4f88b481d5a9ec80703cb12c3/p2522063.jpg?format=auto&quality=70&f=320x0"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">overCoats</h5>
+                                    <p class="card-text">1500</p>
+                                    <div class="row">
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                                            <a href="#" class="btn btn-primary">Add To Cart</a>
+                                        </div>
+
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                                            <a href="#" class="btn btn-primary">Buy NoW</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <div class="card">
+                                <img src="https://contents.mediadecathlon.com/p1215767/f4afd2ff2a61bdc899baf89d8c9bdaac/p1215767.jpg?format=auto&quality=70&f=320x0"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Quechua</h5>
+                                    <p class="card-text">1299</p>
+                                    <div class="row">
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <a
+                                                href="#" class="btn btn-primary">Add To Cart</a></div>
+
+                                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <a
+                                                href="#" class="btn btn-primary">Buy NoW</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <b>Our Sport Collections :</b>
+                Badminton : Badminton Racket | Shuttle cock | Badminton shoes | Non Marking
+                shoes | Badminton Tshirts | Badminton shorts | Racket cover | Badminton grip |
+                Badminton net | Racket string |
+                Tennis : Tennis Clothing | Men Socks | Tennis Rackets | | Tennis Shoes | Tennis
+                bag | Tennis Accessories | Beach tennis | Men Tennis apparels | Women Tennis
+                Apparels |
+                Table Tennis : Table Tennis Tables | TT Rackets | TT Balls | TT Nets | TT Racket
+                covers | Table Tennis accessories | Table Tennis clothing | Table Tennis shoes |
+                Table Tennis socks | TT collections |
+                Squash : Squash Rackets | Squash Balls | Squash Kit bags | Squash Accessories |
+                Squash clothing | Squash shoes | Squash collections |
+                Hiking : Fleece | Sweaters | Rain Jacket | Hiking shoes | | Men Socks | Backpack
+                | Hiking Backpack | | Bottles |
+                Trekking : Trekking Boots | Trekking Backpack | Travel backpack | Winter Jackets
+                | Down Jackets | Trekking Poles | Travel Shirts | Shorts | Trousers | Headlamps
+                |
+                Cardio : Fitness Equipment | Treadmills | Cross Trainers | Elliptical | Exercise
+                bikes | Spin Bikes | Rowing Machine | Steppers | Trampoline | Cardio Apparel |
+                Gym Track pants : Gym Shorts | Gym Track pants | Gym Shorts | Men Tracksuits |
+                Women Gym suits | Sports Bra | Gym Tops | Women fitness jacket |
+                Camping : Tents | Chairs | Tables | Furnitures | Sleeping bags | Mattresses |
+                Camping Accessories | Cooksets |
+                Skiing : Men Thermals | Women Thermals | Beanies | | Winter Accessories |
+                Warmers | Junior Jackets | Junior Beanies | Ski jackets |
+                Wildlife : Camo Tshirts | Camo Trousers | Camo Bermudas | Camo Caps | Gum Boots
+                | Binoculars | | Shelter | Umbrellas | Pouches |
+                Cycle : Bike Racks | Cycles | Mountain Cycles | Hybrid Cycles | Road Bikes |
+                Kids Cycle | Cycle Accessories |
+                Road Cycle : Bike Racks | Cycles | Mountain Bikes | Hybrid Cycles | Road Bikes |
+                Kids Cycle | Cycle Accessories |
+                MTB Cycle : Bike Racks | Cycles | Mountain Bikes | Hybrid Cycles | Road Bikes |
+                Kids Cycle | Cycle Accessories |
+                Fishing : Fishing Rods | Fishing Reels | Hooks | Lures | Fishing lines | Fishing
+                Accessories | Fishing Camp Furnitures | Fishing ponchos | Fishing GIlet |
+                Horse Riding : Horse riding helmets | Breeches | Horse riding boots | Horse
+                riding gloves | Leather saddle | Cloth saddle |
+                Swimming : Swimming costumes | Swimming cap | Swimming goggles | Towels |
+                Bathrobes | Flipflops | Swimming equipments | Aqua learning | Buoyancy aids |
+                Football : Football | Football shoes | Football bag | Football Jersey | Football
+                shorts | Football Socks | Goal Posts | Training accessories | Goalkeeper Kit |
+                Football Equipment |
+
+            </div>
+
+            <div class="row">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                    <br><br>
+                    <text> <b>SUPPORT</b>
+                        <p>Contact our Stores
+                            Delivery</p>
+                    </text>
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                    <br><br>
+                    <text> <b>OUR SERVICES</b>
+                        <p>
+                            Decathlon for Schools
+                            Decathlon for Corporates
+                            Decathlon for Sport Clubs
+                            Decathlon Gift Cards
+                            Installation & Assembly Services</p>
+                    </text>
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                    <br><br>
+                    <text> <b>ABOUT US</b>
+                        <p>
+                            Who we are
+                            Careers
+                            Made In India</p>
+                    </text>
+
+                </div>
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"> <br><br>
+                    <text> <b>LEGAL</b>
+                        <p>
+
+                            Return Policy
+                            Terms and Conditions
+                            Privacy Policy</p>
+                    </text>
+                </div>
+
+                <div class="p-3 mb-2 bg-dark text-white">
+                    <div class="row">
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <br><br>
+                            <text>
+                                <p>
+                                    OUR PROMISE</p>
+                            </text>
+
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+                            <br><br>
+                            <text>
+                                <p>
+
+
+                                    No Cost EMI Available</p>
+                            </text>
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+
+                            <br><br>
+                            <text>
+                                <p>
+
+                                    Easy Returns*</p>
+                            </text>
+
+
+                        </div>
+                        <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3"><br><br>
+                            <text>
+                                <p>
+
+                                    1 million+ happy Customers</p>
+                            </text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
